@@ -20,8 +20,8 @@ Follow these instructions to set up and run the project locally.
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd my-app
+   git clone https://github.com/MuhammadKhezar534/User-Listing.git
+   cd app
    npm install
    npm run dev
    ```
