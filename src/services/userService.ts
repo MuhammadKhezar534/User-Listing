@@ -12,7 +12,7 @@ export const getUsers = async (
     page,
     results: 10,
     ...(gender && { gender }),
-    ...(search && { keyword: search }),
+    ...(search && { name: search }),
   };
 
   const response = await axios.get<UserResponse>(API_URL, { params });
